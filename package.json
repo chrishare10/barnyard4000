@@ -1,0 +1,42 @@
+{
+  "name": "b4k-invite",
+  "version": "1.0.2",
+  "description": "Barnyard4000 Invite",
+  "keywords": [
+    "r3f",
+    "react",
+    "three",
+    "vite",
+    "starter",
+    "react three fiber",
+    "sandbox",
+    "codesandbox"
+  ],
+  "author": "Chris Hare",
+  "license": "MIT",
+  "dependencies": {
+    "@react-spring/three": "^9.7.3",
+    "@react-three/drei": "9.97.0",
+    "@react-three/fiber": "8.15.16",
+    "leva": "^0.9.35",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.12"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "sandbox": "APP_ENV=sandbox vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
