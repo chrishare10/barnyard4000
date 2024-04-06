@@ -12,7 +12,7 @@ function Overlay() {
     <>
     <App />
     <div style={{ position: 'absolute', bottom: 0, left: 0, width: '100%',  zIndex: '10' }}>
-      <div style={{display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', padding: '25px'}}>
+      <div style={{display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', padding: '25px', gap: "10px"}}>
         <div style={{ fontSize: '13px', color: 'white', fontFamily: '"Cousine", monospace' }}>
           <span style={{ fontWeight: 'bold' }}>barnyard4000</span>
           <br />
